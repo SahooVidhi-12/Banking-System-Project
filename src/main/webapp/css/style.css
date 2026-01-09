@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 10px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* === Index Page Specific (Welcome Screen) === 
+
+
+.index-page {
+  background-image: url("../images/bank.jpg"); /* Your uploaded image 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.index-page .container {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
